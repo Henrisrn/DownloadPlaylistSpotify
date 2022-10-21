@@ -7,8 +7,10 @@ from selenium import webdriver
 import pytube
 import time
 
-CLIENT_ID = '5e445ca58b10405ba49a353f8e52e83d'
-CLIENT_SECRET = "64642b9ac87e428dbf7d0a3b1bf38788"
+CLIENT_ID = 'ENTER CLIEN ID FROM SPOTIFY API'
+CLIENT_SECRET = "ENTER CLIENT SECRET FROM SPOTIFY API"
+
+#GO FOLLOW ME ON SPOTIFY
 PLAYLIST_LINK = "https://open.spotify.com/playlist/6eo3ETxhrwTD1YY9GcMw79"
 
 CLIENT_CREDENTIALS_MANAGER = SpotifyClientCredentials(
