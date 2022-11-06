@@ -7,8 +7,8 @@ from selenium import webdriver
 import pytube
 import time
 
-CLIENT_ID = '5e445ca58b10405ba49a353f8e52e83d'
-CLIENT_SECRET = "64642b9ac87e428dbf7d0a3b1bf38788"
+CLIENT_ID = ''
+CLIENT_SECRET = ""
 PLAYLIST_LINK = "https://open.spotify.com/playlist/1HIustV9i4CVpvlDx1EcsD?si=e2d4c1704ac742dd"
 
 CLIENT_CREDENTIALS_MANAGER = SpotifyClientCredentials(
